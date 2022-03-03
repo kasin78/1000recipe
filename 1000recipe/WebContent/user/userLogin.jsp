@@ -20,7 +20,7 @@
     <% registerBean info = (registerBean)session.getAttribute("info"); %>
 
     <!-- 마이페이지 (정보수정) 모달창 -->
-    <div class="modal fade" id="modal-myUserpage" tabindex="-1" aria-labelledby="addUpdateLabel" aria-hidden="true">
+    <div class="modal fade" id="modal-myUserPage" tabindex="-1" aria-labelledby="addUpdateLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">

@@ -9,16 +9,17 @@ import recipe.model.registerBean;
 import recipe.utils.JDBCUtils;
 
 public class registerDao {
-	private Connection conn = null;
-	private PreparedStatement pstmt = null;
-	private ResultSet rs = null;
-	
+
 	// 회원가입
 	public int registerUser(registerBean user) {
 		String sql = "INSERT INTO register (id, password, userName, name, postNum, address, phoneNum) "
 				   + "VALUES(?, ?, ?, ?, ?, ?, ?)";
 		
 		int result = 0;
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
 		
 		try {
 			conn = JDBCUtils.getConnection();
@@ -49,6 +50,11 @@ public class registerDao {
 		
 		String sql = "SELECT id FROM register "
 				   + "WHERE name = ? AND phoneNum = ?";
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
 		try {
 			conn = JDBCUtils.getConnection();
 			
@@ -75,6 +81,11 @@ public class registerDao {
 		
 		String sql = "SELECT password FROM register "
 				   + "WHERE id = ? AND name = ? AND phoneNum = ?";
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
 		try {
 			conn = JDBCUtils.getConnection();
 			

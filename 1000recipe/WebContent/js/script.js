@@ -17,9 +17,15 @@ $(document).ready(function () {
   // ID/PW 찾기 클릭 모달 팝업
   $('#findIdPw').on('click', function (e) {
     $('#modal-findIdPw').modal('show');
+    $('#modal-login').modal('hide');
   });
 
-  // 마이페이지 모달 팝업
+  // 회원정보 수정 모달 팝업
+  $('#myPage').on('click', function (e) {
+    $('#modal-myUserPage').modal('show');
+  });
+
+  // 회원정보 삭제 모달 팝업
   $('#adminPage').on('click', function (e) {
     $('#modal-myAdminPage').modal('show');
   });

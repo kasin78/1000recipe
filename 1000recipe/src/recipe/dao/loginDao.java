@@ -11,16 +11,16 @@ import recipe.model.loginBean;
 import recipe.utils.JDBCUtils;
 
 public class loginDao {
-	private Connection conn = null;
-	private PreparedStatement pstmt = null;
-	private ResultSet rs = null;
-	
 	// 유저 로그인	
 	public boolean loginUser(loginBean user) {
 		boolean status = false;
 		
 		String sql = "SELECT id, password FROM register "
 				   + "WHERE id = ? AND password = ?";
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
 		
 		try {
 			conn = JDBCUtils.getConnection();
@@ -48,6 +48,11 @@ public class loginDao {
 		
 		String sql = "SELECT id, password, adminCode FROM register "
 				   + "WHERE id = ? AND password = ? AND adminCode = ?";
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
 		try {
 			conn = JDBCUtils.getConnection();
 			

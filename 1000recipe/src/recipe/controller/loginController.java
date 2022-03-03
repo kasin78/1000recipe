@@ -83,6 +83,8 @@ public class loginController extends HttpServlet {
 			} else {
 				System.out.println("유저 로그인 실패");
 				request.setAttribute("ID2", id);
+				request.getRequestDispatcher("main.jsp").forward(request, response);
+				
 			}
 		} 
 		// 관리자 로그인
@@ -100,7 +102,8 @@ public class loginController extends HttpServlet {
 				request.getRequestDispatcher("main.jsp").forward(request, response);
 			} else {
 				System.out.println("관리자 로그인 실패");
-				request.setAttribute("ID2", id);
+				
+				request.getRequestDispatcher("main.jsp").forward(request, response);
 			}
 		}
 	}
