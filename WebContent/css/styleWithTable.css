@@ -1,0 +1,73 @@
+body {
+  width: 80%;
+  margin: auto;
+  background: #f3f3f3;
+  color: #616f80;
+}
+
+/* a태그 밑줄 없애기 */
+a {
+  text-decoration: none;
+}
+
+li a {
+  font-size: 1.25rem;
+}
+
+/* 캐러셀 */
+.carousel-item > img {
+  top: 0;
+  left: 0;
+  background-color: gray;
+  max-width: 100%;
+  max-height: 600px;
+}
+
+/* 광고 */
+#advertise {
+  display: flex;
+  justify-content: end;
+}
+
+/* 공지사항, 자유게시판 */
+#notice th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#freeBoard th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+/* Best 요리 레시피 */
+table {
+  display: flex;
+  border-spacing: 10px;
+}
+
+/* Footer */
+.footer {
+  /* 요리 게시판 작성시 저장버튼 덮는 문제 */
+  /* position: relative; */
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  background-color: #e74c3c;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  display: flex;
+  align-items: flex-start;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}

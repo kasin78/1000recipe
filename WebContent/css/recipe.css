@@ -1,0 +1,174 @@
+body {
+  width: 80%;
+  margin: auto;
+  background: #fff8dc;
+  color: #616f80;
+}
+
+#card {
+  background: #fff5ee;
+}
+
+/* 광고 */
+#advertise img {
+  position: fixed;
+  top: 300px;
+  left: 1600px;
+}
+
+#label {
+  font-weight: 800;
+}
+
+#title {
+  height: 60px;
+  width: 500px;
+}
+
+#titleshow {
+  background-color: #ffffff;
+  font-size: 30px;
+}
+
+#description {
+  height: 150px;
+  width: 600px;
+}
+
+#descriptionshow {
+  position: center;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+#material {
+  height: 150px;
+  width: 600px;
+}
+
+#materialshow {
+  position: center;
+  background-color: #ffffff;
+  width: 1300px;
+  font-size: 22px;
+}
+
+.textarea {
+  height: 100px;
+  color: intenal light dark;
+}
+
+#category {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+}
+
+#categoryshow {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+#people {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+}
+
+#peopleshow {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+  margin-right: 80px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+#time {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+}
+
+#timeshow {
+  display: inline-block;
+  margin-right: 80px;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+  margin-right: 80px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+#difficulty {
+  display: inline-block;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+}
+
+#difficultyshow {
+  display: inline-block;
+  padding: 12px;
+  height: 60px;
+  width: 200px;
+  margin-right: 80px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+.form-select {
+  width: 160px;
+  vertical-align: middle;
+}
+
+#cookOrder {
+  height: 300px;
+}
+
+#cookOrdershow {
+  height: 400px;
+  background-color: #ffffff;
+  width: 1300px;
+  font-size: 22px;
+}
+
+#cookTip {
+  height: 200px;
+}
+
+#cookTipshow {
+  height: 200px;
+  width: 1300px;
+  background-color: #ffffff;
+  font-size: 22px;
+}
+
+#cookTagshow {
+  background-color: #ffffff;
+  font-size: 22px;
+  width: 1300px;
+}
+
+#regi {
+  background-color: #a9a9a9;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+}
+
+#button {
+  background-color: #a9a9a9;
+}
